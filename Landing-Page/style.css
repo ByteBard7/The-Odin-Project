@@ -70,3 +70,16 @@ button{
     color:white;
     width: 200px;
 }
+
+.characters{
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+}
+
+.characters img{
+    border: 5px solid grey;
+    background-color: white;
+    height: 300px;
+    width: 230px;
+}
