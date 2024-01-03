@@ -21,6 +21,7 @@ header{
     list-style-type: none;
     display: flex;
     gap: 30px;
+    margin-right: 30px;
 }
 
 li{
@@ -33,6 +34,7 @@ li{
     border: 1px solid white;
     background-color: green;
     margin: 0.7px;
+    padding: 2px;
 }
 
 
