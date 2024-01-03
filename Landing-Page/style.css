@@ -13,7 +13,7 @@ header{
 .logo{
     width: 75px;
     height: auto;
-    margin-left: 20px ;
+    margin-left: 36px ;
 }
 
 .links{
@@ -33,4 +33,26 @@ li{
     border: 1px solid white;
     background-color: green;
     margin: 0.7px;
+}
+
+
+.container{
+    display: flex;
+    justify-content: space-between;
+}
+
+.show-logo{
+    background-color: white;
+    border: 5px solid grey;
+    height: 200px;
+    width: 300px;
+    margin-right: 200px;
+    margin-top: 50px;
+}
+
+.text{
+    display: flex;
+    color: white;
+    margin: 50px;
+    flex-direction: column;
 }
