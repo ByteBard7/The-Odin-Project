@@ -3,6 +3,7 @@ body{
     display: flex;
     flex-direction: column;
     flex-wrap: wrap;
+    text-align: center;
 }
 
 
@@ -78,7 +79,7 @@ button{
 .characters{
     display: flex;
     justify-content: center;
-    gap: 10px;
+    gap: 52px;
 }
 
 .characters img{
