@@ -81,11 +81,14 @@ button{
     width: 200px;
 }
 
+button:hover{
+    background-color: black;
+}
+
 .characters{
     display: flex;
     justify-content: center;
     gap: 52px;
-    /* flex-wrap: wrap; */
 }
 
 .characters img{
@@ -177,6 +180,10 @@ h1{
     align-self: center;
     margin: 0 50px 0 50px;
     background-color: black;
+}
+
+.box button:hover{
+    background-color: green;
 }
 
 footer p{
