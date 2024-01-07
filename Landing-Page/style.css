@@ -62,7 +62,6 @@ header li{
 .container button{
     background-color: green;
     padding: 10px;
-    max-width: 60%;
     border-radius: 20px;
     color: white;
     font-weight: bold;
