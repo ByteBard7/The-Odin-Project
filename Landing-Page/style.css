@@ -159,6 +159,8 @@ a {
   padding: 20px 20px;
   text-decoration: none;
   color: white;
+  font-weight: 1000;
+  font-family: 'Courier New', Courier, monospace;
 }
 
 /* menu */
