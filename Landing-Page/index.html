@@ -1,79 +1,120 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Landing Page</title>
-    <link rel="stylesheet" href="style.css">
-</head>
-<body>
-    <div>
-        <header>
-            <img src="logo.gif" alt="Recreational Van" class="logo">
-            <ul class="links">
-                <li><a href=""></a><span class="element">He<sup>2</sup></span>ader Link One</li>
-                <li><a href=""></a><span class="element">He<sup>2</sup></span>aderLink Two</li>
-                <li><a href=""></a><span class="element">He<sup>2</sup></span>aderLink Three</li>
-            </ul>
-        </header>
-        <hr>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <!-- <div>
+      <header class="header">
+        <img src="logo.gif" alt="Recreational Van" class="logo" />
+        <input type="checkbox" id="menu-btn" class="menu-btn" />
+        <ul class="links">
+          <li>
+            <a href=""></a><span class="element">He<sup>2</sup></span
+            >ader Link One
+          </li>
+          <li>
+            <a href=""></a><span class="element">He<sup>2</sup></span
+            >aderLink Two
+          </li>
+          <li>
+            <a href=""></a><span class="element">He<sup>2</sup></span
+            >aderLink Three
+          </li>
+        </ul>
+      </header> -->
+      <header class="header">
+            <img src="logo.gif" alt="">
+        <input class="menu-btn" type="checkbox" id="menu-btn" />
+        <label class="menu-icon" for="menu-btn"><span class="navicon"></span></label>
+        <ul class="menu">
+          <li><a href="#home">Home</a></li>
+          <li><a href="#characters">Characters</a></li>
+          <li><a href="#about">About</a></li>
+          <li><a href="#watch">Watch</a></li>
+        </ul>
+      </header>
     </div>
-    <div class="container">
-            <div class="show-logo">
-                <img src="show-logo.png" alt="Breaking Bad Logo" height="200px" width="300px">
-            </div>
-            <div class="text">
-                <h1>The Best TV Show</h1>
-                <p>⭐ ⭐ ⭐ ⭐ ⭐</p>
-                <p>Walter White, a chemistry teacher, discovers that he has cancer and decides to get into the meth-making business to repay his medical debts. His priorities begin to change when he partners with Jesse.</p>
-                <button>Watch Now</button>
-            </div>
+    <div class="container" id="home">
+      <div class="show-logo">
+        <img
+          src="show-logo.png"
+          alt="Breaking Bad Logo"
+          height="200px"
+          width="300px"
+        />
+      </div>
+      <div class="text">
+        <h1>The Best TV Show</h1>
+        <p>⭐ ⭐ ⭐ ⭐ ⭐</p>
+        <p>
+          Walter White, a chemistry teacher, discovers that he has cancer and
+          decides to get into the meth-making business to repay his medical
+          debts. His priorities begin to change when he partners with Jesse.
+        </p>
+        <button>Watch Now</button>
+      </div>
     </div>
-    <h1 class="title">Favourite Characters</h1>
+    <h1 class="title" id="characters">Favourite Characters</h1>
     <div class="characters-container">
-        <div class="characters">
-            <img src="./images/walter-white.jpg" alt="Walter White Image" class="Char-image">
-            <div class="text">
-                <p>Walter White <br></p>
-            </div>
+      <div class="characters">
+        <img
+          src="./images/walter-white.jpg"
+          alt="Walter White Image"
+          class="Char-image"
+        />
+        <div class="text">
+          <p>Walter White <br /></p>
         </div>
-        <div class="characters">
-            <img src="./images/Jesse.jpg" alt="Jesse Pinkman Image">
-            <div class="text">
-                <p>Jesse Pinkman</p>
-            </div>
+      </div>
+      <div class="characters">
+        <img src="./images/Jesse.jpg" alt="Jesse Pinkman Image" />
+        <div class="text">
+          <p>Jesse Pinkman</p>
         </div>
-        <div class="characters">
-            <img src="./images/Mike Ehrmantraut.jpeg" alt="Mike Ehrmantraut Image">
-            <div class="text">
-                <p>Mike Ehrmantraut</p>
-            </div>
+      </div>
+      <div class="characters">
+        <img
+          src="./images/Mike Ehrmantraut.jpeg"
+          alt="Mike Ehrmantraut Image"
+        />
+        <div class="text">
+          <p>Mike Ehrmantraut</p>
         </div>
-        <div class="characters">
-            <img src="./images/saul.jpg" alt="Saul Goodman Image">
-            <div class="text">
-                <p>Saul Goodman</p>
-            </div>
+      </div>
+      <div class="characters">
+        <img src="./images/saul.jpg" alt="Saul Goodman Image" />
+        <div class="text">
+          <p>Saul Goodman</p>
         </div>
+      </div>
     </div>
-    <div class="quote">
-        <p class="quote-text">"This is an inspiring quote, or a testimonial from a
-            customer. Maybe it's just filling up space, or maybe
-            people will actually read it. Who knows? All I know
-            is that it looks nice."</p> <br>
-        <h1 class="quote-person">~Thor God Of Thunder</h1>
+    <div class="quote" id="about">
+      <p class="quote-text">
+        "This is an inspiring quote, or a testimonial from a customer. Maybe
+        it's just filling up space, or maybe people will actually read it. Who
+        knows? All I know is that it looks nice."
+      </p>
+      <br />
+      <h1 class="quote-person">~Thor God Of Thunder</h1>
     </div>
     <div class="box">
-        <div class="watch-now">
-            <div class="text-content">
-                <h2 class="watch-text">Watch It Now! Click the Watch Now Button!</h2>
-                <p class="watch-description">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Labore necessitatibus distinctio nobis, quaerat ab aliquid esse,</p>
-            </div>
-            <button class="button">Watch Now</button>
+      <div class="watch-now">
+        <div class="text-content">
+          <h2 class="watch-text">Watch It Now! Click the Watch Now Button!</h2>
+          <p class="watch-description">
+            Lorem ipsum, dolor sit amet consectetur adipisicing elit. Labore
+            necessitatibus distinctio nobis, quaerat ab aliquid esse,
+          </p>
         </div>
+        <button class="button" id="watch">Watch Now</button>
+      </div>
     </div>
-        <footer>
-           <p>Copyright © The Odin Project 2024</p>
-        </footer>  
-</body>
+    <footer>
+      <p>Copyright © The Odin Project 2024</p>
+    </footer>
+  </body>
 </html>
