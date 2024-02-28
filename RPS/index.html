@@ -1,13 +1,26 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Rock,Paper,Scissors</title>
-</head>
-<body>
-    <h1>Welcome To Rock,Paper,Scissors Game!</h1>
-    <h4>Please play this game on your browser console.</h4>
-    <script src="rps.js"></script>
-</body>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <h4>The first person to reach five points will win.</h4>
+    <div class="choiceDisplay">
+      <h1>Computer</h1>
+      <div id="compChoice"></div>
+      <h3 id="result">Rock Wins</h3>
+      <h1>Player</h1>
+      <div id="playerChoice"></div>
+    </div>
+    <div class="buttons">
+      <button><img src="./assests/rock.png" alt="Rock" /></button>
+      <button><img src="./assests/paper.png" alt="Paper" /></button>
+      <button><img src="./assests/scissors.png" alt="Scissors" /></button>
+    </div>
+
+    <!-- <script src="script.js"></script> -->
+  </body>
 </html>
